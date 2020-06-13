@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FA4E267231C7FB9EE35E5AC /* Pods_FirstClassTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FAA59D764915EF1EC84DA6 /* Pods_FirstClassTrip.framework */; };
 		9B67DC20249509440022C1FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67DC1F249509440022C1FE /* AppDelegate.swift */; };
 		9B67DC22249509440022C1FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67DC21249509440022C1FE /* SceneDelegate.swift */; };
-		9B67DC24249509440022C1FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67DC23249509440022C1FE /* ViewController.swift */; };
 		9B67DC27249509440022C1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B67DC25249509440022C1FE /* Main.storyboard */; };
 		9B67DC29249509450022C1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B67DC28249509450022C1FE /* Assets.xcassets */; };
 		9B67DC2C249509450022C1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B67DC2A249509450022C1FE /* LaunchScreen.storyboard */; };
+		9B67DC3724950E1E0022C1FE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67DC23249509440022C1FE /* MainViewController.swift */; };
+		9B9D32A6249510630016A245 /* 11425-travel-icons-luggage.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D32A5249510630016A245 /* 11425-travel-icons-luggage.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46FAA59D764915EF1EC84DA6 /* Pods_FirstClassTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstClassTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48206456AB8EE2F3AAB58518 /* Pods-FirstClassTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstClassTrip.debug.xcconfig"; path = "Target Support Files/Pods-FirstClassTrip/Pods-FirstClassTrip.debug.xcconfig"; sourceTree = "<group>"; };
 		9B67DC1C249509440022C1FE /* FirstClassTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstClassTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B67DC1F249509440022C1FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B67DC21249509440022C1FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B67DC23249509440022C1FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B67DC23249509440022C1FE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9B67DC26249509440022C1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B67DC28249509450022C1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B67DC2B249509450022C1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B67DC2D249509450022C1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9D32A5249510630016A245 /* 11425-travel-icons-luggage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "11425-travel-icons-luggage.json"; sourceTree = "<group>"; };
+		E7DCC797728AE6A770D8E238 /* Pods-FirstClassTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstClassTrip.release.xcconfig"; path = "Target Support Files/Pods-FirstClassTrip/Pods-FirstClassTrip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA4E267231C7FB9EE35E5AC /* Pods_FirstClassTrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10860067413416C2CE40D099 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46FAA59D764915EF1EC84DA6 /* Pods_FirstClassTrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73FE139261AEEEAC8C15BC46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48206456AB8EE2F3AAB58518 /* Pods-FirstClassTrip.debug.xcconfig */,
+				E7DCC797728AE6A770D8E238 /* Pods-FirstClassTrip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9B67DC13249509440022C1FE = {
 			isa = PBXGroup;
 			children = (
+				9B9D32A5249510630016A245 /* 11425-travel-icons-luggage.json */,
 				9B67DC1E249509440022C1FE /* FirstClassTrip */,
 				9B67DC1D249509440022C1FE /* Products */,
+				73FE139261AEEEAC8C15BC46 /* Pods */,
+				10860067413416C2CE40D099 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,23 @@
 		9B67DC1E249509440022C1FE /* FirstClassTrip */ = {
 			isa = PBXGroup;
 			children = (
+				9B67DC3824950E3C0022C1FE /* ViewControllers */,
 				9B67DC1F249509440022C1FE /* AppDelegate.swift */,
 				9B67DC21249509440022C1FE /* SceneDelegate.swift */,
-				9B67DC23249509440022C1FE /* ViewController.swift */,
 				9B67DC25249509440022C1FE /* Main.storyboard */,
 				9B67DC28249509450022C1FE /* Assets.xcassets */,
 				9B67DC2A249509450022C1FE /* LaunchScreen.storyboard */,
 				9B67DC2D249509450022C1FE /* Info.plist */,
 			);
 			path = FirstClassTrip;
+			sourceTree = "<group>";
+		};
+		9B67DC3824950E3C0022C1FE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B67DC23249509440022C1FE /* MainViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B67DC30249509450022C1FE /* Build configuration list for PBXNativeTarget "FirstClassTrip" */;
 			buildPhases = (
+				4569AAF5B536BAE7E2E25C2F /* [CP] Check Pods Manifest.lock */,
 				9B67DC18249509440022C1FE /* Sources */,
 				9B67DC19249509440022C1FE /* Frameworks */,
 				9B67DC1A249509440022C1FE /* Resources */,
+				D05AA3221ED21102FDEF73ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B67DC2C249509450022C1FE /* LaunchScreen.storyboard in Resources */,
+				9B9D32A6249510630016A245 /* 11425-travel-icons-luggage.json in Resources */,
 				9B67DC29249509450022C1FE /* Assets.xcassets in Resources */,
 				9B67DC27249509440022C1FE /* Main.storyboard in Resources */,
 			);
@@ -133,12 +171,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4569AAF5B536BAE7E2E25C2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirstClassTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05AA3221ED21102FDEF73ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstClassTrip/Pods-FirstClassTrip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstClassTrip/Pods-FirstClassTrip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirstClassTrip/Pods-FirstClassTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B67DC18249509440022C1FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B67DC24249509440022C1FE /* ViewController.swift in Sources */,
+				9B67DC3724950E1E0022C1FE /* MainViewController.swift in Sources */,
 				9B67DC20249509440022C1FE /* AppDelegate.swift in Sources */,
 				9B67DC22249509440022C1FE /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +362,7 @@
 		};
 		9B67DC31249509450022C1FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48206456AB8EE2F3AAB58518 /* Pods-FirstClassTrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,12 +374,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Triplan.FirstClassTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9B67DC32249509450022C1FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DCC797728AE6A770D8E238 /* Pods-FirstClassTrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Triplan.FirstClassTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
